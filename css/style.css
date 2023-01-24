@@ -1,0 +1,37 @@
+/*---------------
+
+  全体
+
+---------------*/
+body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/*---------------
+
+  画像全体
+
+---------------*/
+.jya-img {
+  display: flex;
+  justify-content: center;
+}
+.jya-img_image {
+  width: 300px;
+}
+
+/*---------------
+
+  自分・相手
+
+---------------*/
+.jya-name {
+  text-align: center;
+}

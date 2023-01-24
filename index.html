@@ -5,11 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
   </head>
 
   <body>
 
+    <div class="container">
+      <div class="jya-content opponent">
+        <p class="jya-name opponent_name">
+          相手
+        </p>
+
+        <div class="jya-img">
+          <img src="./img/janken-pa.png" alt="パー" class="jya-img_image oppnent_img">
+          <img src="./img/janken-choki.png" alt="チョキ" class="jya-img_image oppnent_img">
+          <img src="./img/janken-gu.png" alt="グー" class="jya-img_image oppnent_img">
+        </div>
+      </div>
+
+      <div class="jya-result"></div>
+
+      <div class="jya-content me">
+        <div class="jya-img">
+          <img src="./img/janken-pa.png" alt="パー" class="jya-img_image me_img">
+          <img src="./img/janken-choki.png" alt="チョキ" class="jya-img_image me_img">
+          <img src="./img/janken-gu.png" alt="グー" class="jya-img_image me_img">
+        </div>
+
+        <p class="jya-name me_name">
+          自分
+        </p>
+      </div>
+    </div>
+    <script src="./script.js"></script>
   </body>
 
 </html>
